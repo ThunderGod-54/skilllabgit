@@ -1,0 +1,32 @@
+/* Container */
+.weather-container {
+  width: 320px;
+  padding: 24px;
+  border-radius: 14px;
+  background: #fff;
+  border: 1px solid #1f1f23;
+  left: 50%;
+  right: auto;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+}
+.btn{
+    margin-top: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1f1f23;
+    color: #fff;
+    cursor: pointer;
+}
+.weather-info {
+  margin-top: 20px;
+  padding: 16px;
+  border-radius: 8px;
+  background: #1f1f23;
+}
+.inp{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
