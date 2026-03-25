@@ -1,4 +1,4 @@
-/* Container to center the quiz on the screen */
+
 .quiz-container {
   max-width: 600px;
   margin: 50px auto;
@@ -8,13 +8,11 @@
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 h1 {
   color: #333;
   text-align: center;
   margin-bottom: 1.5rem;
 }
-
 h2 {
   font-size: 1.2rem;
   color: #444;
@@ -37,25 +35,19 @@ li {
   font-weight: 500;
   color: #555;
 }
-
-/* Hover effect for interactive feel */
 li:hover {
   background-color: #e9ecef;
   transform: translateY(-2px);
   border-color: #dee2e6;
 }
-
-/* Selected state with a nice blue theme */
 li.selected {
   background-color: #e3f2fd;
   border-color: #2196f3;
   color: #1976d2;
 }
-
-/* Base button styles */
 .button, .button-disable {
   display: block;
-  width: 100%; /* Full width looks better on mobile */
+  width: 100%; 
   margin-top: 2rem;
   padding: 12px;
   border: none;
@@ -75,15 +67,11 @@ li.selected {
 .button:hover {
   background-color: #0ba363;
 }
-
-/* Disabled state */
 .button-disable {
   background-color: #cccccc;
   color: #888888;
   cursor: not-allowed;
 }
-
-/* Result section styling */
 .score-section {
   text-align: center;
   padding: 20px;
